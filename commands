@@ -8,3 +8,5 @@ map.sh "sudo zypper install" "zypper-installs"
 /bin/nu
 /bin/python
 genius
+sudo pacman -Syu --noconfirm
+git -C /home/barista/ pull 
