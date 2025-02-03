@@ -6,11 +6,11 @@ map.sh "sudo zypper install" "zypper-installs"
 /bin/python
 genius
 sudo pacman -Syu --noconfirm
-git -C /home/barista/ pull 
+git -C /home/barista pull 
 git -C /home/barista status
-git -C /home/barista add /home/barista && git -C /home/barista commit
+git -C /home/barista add /home/barista && git -C /home/barista -C /home/barista commit
 vim /home/barista/commands
 vim /home/barista/README.md
-vim /home/barista/.gitignore
+vim /home/barista/.git -C /home/baristaignore
 vim /home/barista/.profile
-git -C /home/barista/ rm --cached /home/barista && git add .
+git -C /home/barista -rm --cached /home/barista && git -C /home/barista add /home/barista

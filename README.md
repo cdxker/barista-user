@@ -53,6 +53,12 @@ Everything else must have a file extension. Including scripts. Must have .sh, .n
 If at all possible. Always always `chmod +x` any runnable programs, it makes it much easier to 
 add a shebang to specify the exact version of python, sh or nu you want to use.
 
+### When possible, always alias.
+
+Alias is one of the great joys in life to keep your commands list nice and readable. Be careful with spamming too much. Too much abstraction will cripple you when in a no-barista environment.
+
+(no barista env should be rare, its so easy to install)
+
 ### Lists
 
 The format of a list is just single lines.
