@@ -1,0 +1,4 @@
+.viminfo
+.cache/
+.vim/
+.local/state/nvim/

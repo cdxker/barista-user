@@ -2,6 +2,15 @@
 
 Don't make your servers pets. Don't make your servers cattle. Make them little Baristas.
 
+## Bootstrapping Your Barista
+
+```bootstrapping.sh
+wget https://raw.githubusercontent.com/cdxker/barista-user/refs/heads/main/bootstrap.sh
+chmod +x bootstrap.sh
+sudo su
+./bootstrap.sh
+```
+
 ## Rules of a Barista
 
 A "barista" under the hood is essentially just a user account on a linux device. 
