@@ -6,5 +6,5 @@
 /home/barista/startup.sh
 /home/barista/bootstrap.sh
 /home/barista/.profile
+/home/barista/.gitignore
 /home/barista/.ssh/authorized_keys
-

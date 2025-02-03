@@ -66,9 +66,9 @@ Using this new list paradime.
 
 We now can introduce a really cool function. The map function.
 
-`map` is a wrapper around xargs. That executes some function on every file in a list.
+`map.sh` is a wrapper around xargs. That executes some function on every file in a list.
 
-`map "yt-dlp" download-links`.
+`map.sh "yt-dlp" download-links`.
 
 The really nice thing about `map`, is that it will automatically run this large map operation
 in the background on a differnet user.
@@ -77,9 +77,9 @@ Adding this into your `commands` folder and now you can instantly enjoy
 
 Very nice.
 
-### Ability for `map` to pass arbitrary arguments.
+### Ability for `map.sh` to pass arbitrary arguments.
 
-Thinking of a `map` function but for something like this script here.
+Thinking of a `map.sh` function but for something like this script here.
 
 ```sync-folders.sh
 scp -r computerA:Photocard\ Templates/ /user/Photocard\ Templates/
@@ -95,8 +95,29 @@ Using `map` its its now
 
 ```commands
 // ...
-map scp -r $1 $2
+map.sh scp -r $1 $2
 // ...
+```
+
+Great, now we can extend this to other types of maintainence tasks that are long running. 
+
+```zypper-installs
+vim
+nvim
+fzf
+```
+
+```other-sync-directories
+/home/barista
+/home/fastfist/chemex/
+/home/fastfist/Music/sync/download-links
+```
+
+```commands
+...
+map.sh "sudo zypper install" "zypper-installs"
+map.sh "git -C $1 pull" "other-sync-directories"
+...
 ```
 
 ## Autopull from history.
@@ -132,8 +153,19 @@ Having a Barista when brew for you when you're away is nice. But typical users o
 
 Thankfully since Barista is just a user. Its just as easy as changing your identtity to a barista.
 
-`su barista`
+```sh
+su barista
+```
 
+to login as if you are a barista.
+
+or 
+
+```sh
+sudo su barista
+```
+
+for a slightly more commanding feeling.
 
 ## Personal config for a typical basic maintainener user.
 
