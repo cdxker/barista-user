@@ -2,3 +2,4 @@
 .cache/
 .vim/
 .local/state/nvim/
+.ssh/id_ed25519

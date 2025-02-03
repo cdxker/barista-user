@@ -1,5 +1,4 @@
 ls
-git -C /home/barista add /home/barista && git -C /home/barista commit
 map.sh yt-dlp download-links
 map.sh "sudo zypper install" "zypper-installs"
 /bin/bash
@@ -8,7 +7,9 @@ map.sh "sudo zypper install" "zypper-installs"
 genius
 sudo pacman -Syu --noconfirm
 git -C /home/barista/ pull 
+git -C /home/barista status
+git -C /home/barista add /home/barista && git -C /home/barista commit
 vim /home/barista/commands
 vim /home/barista/README.md
-vim .gitignore
+vim /home/barista/.gitignore
 vim /home/barista/.profile
