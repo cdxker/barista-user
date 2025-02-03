@@ -49,3 +49,63 @@ ls
 cd
 ls
 vim .gitignore
+ls
+ls
+cd
+ls
+ls
+git commit
+git add .
+git commit
+git status
+vim .git/config 
+ssh-keygen -t ed25519
+git status
+vim .ssh/
+ls
+cd .ssh/
+ls
+cd
+git add .
+git status
+vim .ssh/
+vim .gitignore 
+ls
+cd
+ls
+vim .gitignore 
+git add .
+git status
+git restore --staged .
+git status
+git add .
+git status
+vim .gitconfig 
+vim
+git commit
+git push
+vim .git/config 
+vim .git/config 
+ls
+cd
+ls
+git status
+git status
+git add .
+git status
+git restore --sstaged .ssh/id_ed25519
+git restore --staged .ssh/id_ed25519
+git status
+git commit
+vim .git/config 
+ls -la
+ls
+git status
+git push
+vim .ssh/id_ed25519
+vim .ssh/id_ed25519.pub 
+cat .ssh/id_ed25519.pub 
+git push
+cat README.md
+vim bootstrap.sh 
+git commit
