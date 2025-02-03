@@ -3,3 +3,5 @@
 .vim/
 .local/state/nvim/
 .ssh/id_ed25519
+.ssh/known_hosts
+.bash_history

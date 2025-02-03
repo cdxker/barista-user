@@ -13,3 +13,4 @@ vim /home/barista/commands
 vim /home/barista/README.md
 vim /home/barista/.gitignore
 vim /home/barista/.profile
+git -C /home/barista/ rm --cached /home/barista && git add .
