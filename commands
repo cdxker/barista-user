@@ -1,0 +1,5 @@
+ls
+vim README.md
+git add . && git commit
+vim .gitignore
+map yt-dlp download-links
